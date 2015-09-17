@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/view_separate"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignBottom="@+id/buttontext1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/horizontal_separation_line" />
+
+    <TextView
+        android:id="@+id/buttontext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/view_separate"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view_separate"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp" />
+
+    <TextView
+        android:id="@+id/buttontext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttontext2"
+        android:layout_alignBottom="@+id/buttontext2"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+</RelativeLayout>

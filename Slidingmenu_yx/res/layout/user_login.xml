@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_title_bar"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_bar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="100.0dip"
+            android:paddingRight="75.0dip"
+            android:text="身份绑定"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="340dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/edittext_style"
+            android:gravity="center_vertical"
+            android:hint="@string/nickname"
+            android:paddingLeft="65dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/nickname"
+            android:layout_alignTop="@id/nickname"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="9dip"
+            android:paddingLeft="5dp"
+            android:text="@string/username"
+            android:textColor="#666666"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/passport"
+            android:layout_width="340dp"
+            android:layout_height="46dp"
+            android:layout_below="@id/nickname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_style"
+            android:gravity="center_vertical"
+            android:hint="@string/passport"
+            android:inputType="textPassword"
+            android:paddingLeft="65dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/passport"
+            android:layout_alignTop="@id/passport"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="9dip"
+            android:paddingLeft="5dp"
+            android:text="@string/userpassport"
+            android:textColor="#666666"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp" >
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:gravity="center"
+                android:text="绑定账号"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="wrap_content"/>
+            
+             <Button
+                android:id="@+id/btn_bind"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:gravity="center"
+                android:text="身份验证"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+</LinearLayout>

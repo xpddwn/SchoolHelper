@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linlayout_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_title_bar"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_marginTop="5.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_top_bar_category" />
+        
+        <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_toRightOf="@id/iv_left"
+	        android:background="@drawable/ic_top_divider" />
+
+        <TextView
+            android:id="@+id/title_bar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="学生客户端"
+            android:paddingLeft="75.0dip"
+       		android:paddingRight="75.0dip"
+            android:textColor="#ffffff"
+        	android:textSize="22sp" />
+        
+       <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_toRightOf="@id/title_bar_name"
+	        android:background="@drawable/ic_top_divider" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+        	android:layout_marginLeft="8.0dip"
+        	android:layout_marginRight="5.0dip"
+        	android:layout_marginTop="15.0dip"
+        	android:gravity="center"
+            android:src="@drawable/ic_category_mark" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/center_frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+    </FrameLayout>
+
+</LinearLayout>

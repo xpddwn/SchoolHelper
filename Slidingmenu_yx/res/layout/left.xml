@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap_book_read_chapterlist_repeat" >
+
+    <LinearLayout
+        android:layout_width="240dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bitmap_book_read_chapterlist_repeat"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp" >
+
+            <ImageView
+                android:id="@+id/head_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="1dp"
+                android:background="@drawable/image_on"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/userinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="岳友"
+            android:textSize="20.0sp" 
+            android:textColor="#ffffff"/>
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/mainpage"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_category_mark"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="功能首页"
+            android:textColor="#ff959595"
+            android:textSize="17.5sp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_category_mark"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="人在北航"
+            android:textColor="#ff959595"
+            android:textSize="18.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="校园资讯"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/schoolcalendar"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="北航校历"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/schoolcar"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="校车时刻"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/buaamuse"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="文娱北航"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_category_mark"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="智慧学工"
+            android:textColor="#ff959595"
+            android:textSize="18.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/boya"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="博雅课堂"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/works"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="勤工俭学"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/scholar"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="奖学金管理"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:id="@+id/stipend"
+            android:layout_width="240dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/selector_category_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="90.0dip"
+            android:paddingRight="10.0dip"
+            android:text="助学金管理"
+            android:textColor="#ff959595"
+            android:textSize="16.0dp" />
+
+        <View
+            android:layout_width="240dip"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+    </LinearLayout>
+
+</ScrollView>

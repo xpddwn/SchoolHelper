@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学生一点通</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+   	<string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="nickname">请输入学号</string>
+    <string name="passport">请输入密码</string>
+    <string name="repassport">请重新输入密码</string>
+    <string name="username">学号</string>
+    <string name="userpassport">密码</string>
+    <string name="re_userpassport">确认</string>
+    <string name="find_passport">找回密码</string>
+    <string name="user_register">注册账号</string>
+    
+	<string name="user_name2">姓名:</string>
+	<string name="user_name">岳友</string>
+	
+	<string name="sex">男</string>
+	<string name="sex2">性别:</string>
+	
+	<string name="age">23</string>
+	<string name="age2">年龄:</string>
+	
+	<string name="address">江西省九江市</string>
+	<string name="address2">籍贯:</string>
+	
+	<string name="studentID">SY1421111</string>
+	<string name="studentID2">学号:</string>
+	
+	<string name="grade">研一</string>
+	<string name="grade2">年级:</string>
+	
+	<string name="telenumber">13666666666</string>
+	<string name="telenumber2">手机:</string>
+	
+	<string name="email">yoyo9170@mail.com</string>
+	<string name="email2">邮箱:</string>
+	
+	<string name="weixin">yuexingzhe</string>
+	<string name="weixin2">微信:</string>
+	
+	<string name="ihome">yoyo</string>
+	<string name="ihome2">ihome:</string>
+	
+	<string name="save">保存</string>
+	<string name="btn_more">加载更多</string>
+	<string name="btn_top">刷新</string>
+	
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    
+    <!-- 拍照或相册选取照片 -->
+    <string name="cancel">取消</string>
+    <string name="take_photo">立刻自拍</string>
+    <string name="pick_photo">打开相册</string>
+    <string name="pickapicture">选一张美图</string>
+    <string name="photoPickerNotFoundText">photoPickerNotFound</string>
+	
+	<!--名言-->
+	<string-array name="saying">
+	    <item>能够献身于自己祖国的事业，为实现理想而斗争，这是最光荣不过的事情了。</item>
+	    <item>最理想的朋友，是气质上互相倾慕，心灵上互相沟通，世界观上互相合拍，事业上目标一致的人。</item>
+	    <item>什么是理想，革命事业就是理想；什么是幸福，为人民服务就是幸福。</item>
+	    <item>青年人的特点在于他们抱有作理想事业的宏大志愿。</item>
+	    <item>你们的理想与热情,是你航行的灵魂的舵和帆。</item>
+	    <item>理想是事业之母</item>
+	    <item>学校的理想是：不要让任何一个在智力方面没有受过训练的人进入生活。愚蠢的人对社会来说是危险的，不管他们受过哪一级的教育。 </item>
+	    <item>劳动受人推崇。为社会服务是很受人赞赏的道德理想。</item>
+	    <item>追求理想是一个人进行自我教育的最初的动力，而没有自我教育就不能想象会有完美的精神生活。我认为，教会学生自己教育自己，这是一种最高级的技巧和艺术。</item>
+	    <item>每个人都有一定的理想，这种理想决定着他的努力和判断的方向。在这个意义上，我从来不把安逸和快乐看作是生活目的本身——这种伦理基础 ，我叫它猪栏式的理想。照亮我的道路，并且不断地给我新的勇气去愉快地正视生活的理想，是善、美和真。</item>
+	    <item>要是一个人，能充满信心地朝他理想的方向去做，下定决心过他所想过的生活，他就一定会得到意外的成功。</item>
+	    <item>一个人如果认为自己在一生中能干出一番不同寻常的大事，就比没有远大理想的可怜虫，有着更多的成功的机会</item>
+	    <item>如果能追随理想而生活，本着正直自由的精神，勇往直前的毅力，诚实而不自欺的思想而行，则定能臻于至善至美的境地。</item>
+	    <item>不经风雨，长不成大树；不受百炼，难以成钢。迎着困难前进，这也是我们革命青年成长的必经之路。有理想有出息的青年人必定是乐于吃苦的人。</item>
+	    <item>青年人啊，热爱理想吧，崇敬理想吧。理想是上帝的语言。高于一切国家和全人类的，是精神的王国，是灵魂的故乡</item>
+	    <item>毫无理想而又优柔寡断是一种可悲的心理。</item>
+	    <item>我从不把安逸和快乐看作是生活的本身,这种伦理基础，我叫它猪栏的理想。</item>
+	    <item>聪明在于勤奋，天才在于积累</item>
+	    <item>精神的浩瀚，想象的活跃，心灵的勤奋，就是天才。</item>
+	    <item>真理惟一可靠的标准就是永远自相符合。</item>
+	    <item>土地是以它的肥沃和收获而被估价的；才能也是土地，不过它生产的不是粮食，而是真理。如果只能滋生瞑想和幻想的话，即使再大的才能也只是砂地或盐池，那上面连小草也长不出来的。</item>
+	    <item>我需要三件东西：爱情友谊和图书。然而这三者之间何其相通！炽热的爱情可以充实图书的内容，图书又是人们最忠实的朋友。</item>
+	    <item>时间是一切财富中最宝贵的财富。</item>
+	    <item>世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。</item>
+	    <item>这世界要是没有爱情，它在我们心中还会有什么意义！这就如一盏没有亮光的走马灯。</item>
+	    <item>相信谎言的人必将在真理之前毁灭。</item>
+	    <item>真正的科学家应当是个幻想家；谁不是幻想家，谁就只能把自己称为实践家。</item>
+	    <item>爱情原如树叶一样，在人忽视里绿了，在忍耐里露出蓓蕾。</item>
+	    <item>一件事实是一条没有性别的真理。</item>
+	    <item>友谊是一棵可以庇荫的树。</item>
+	    <item>如果你浪费了自己的年龄，那是挺可悲的。因为你的青春只能持续一点儿时间——很短的一点儿时间。</item>
+	    <item>人生的磨难是很多的，所以我们不可对于每一件轻微的伤害都过于敏感。在生活磨难面前，精神上的坚强和无动于衷是我们抵抗罪恶和人生意外的最好武器。</item>
+	    <item>人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</item>
+	    <item>科学是到处为家的，不过，在任何不播种的地方，是决不会得到丰收的。</item>
+	    <item>爱情只有当它是自由自在时，才会叶茂花繁。认为爱情是某种义务的思想只能置爱情于死地。只消一句话：你应当爱某个人，就足以使你对这个人恨之入骨。</item>
+	    <item>笨蛋自以为聪明，聪明人才知道自己是笨蛋。</item>
+	    <item>毫无经验的初恋是迷人的，但经得起考验的爱情是无价的。</item>
+	    <item>良好的健康状况和高度的身体训练，是有效的脑力劳动的重要条件。</item>
+	    <item>成功的秘诀，在永不改变既定的目的。</item>
+	    <item>从不浪费时间的人，没有工夫抱怨时间不够。</item>
+	    <item>谁不会休息，谁就不会工作。</item>
+	    <item>友谊是灵魂的结合，这个结合是可以离异的，这是两个敏感，正直的人之间心照不宣的契约。</item>
+	    <item>伟大的思想能变成巨大的财富。</item>
+	    <item>我渴望随着命运指引的方向，心平气和地、没有争吵、悔恨、羡慕，笔直走完人生旅途。</item>
+	    <item>有所作为是生活的最高境界。</item>
+	    <item>我曾经认为自己是个太空人，我花了好长一段时间，才发现我只是一名星球之间的寂寞舞者。</item>
+	    <item>在年轻人的颈项上，没有什么东西能比事业心这颗灿烂的宝珠更迷人的了。</item>
+	    <item>修养的花儿在寂静中开过去了，成功的果子便要在光明里结实。</item>
+	    <item>所谓爱国心，是指你身为这个国家的国民，对于这个国家，应当比对其他一切的国家感情更深厚。</item>
+	    <item>才能的火花，常常在勤奋的磨石上迸发。</item>
+	    <item>青年长于创造而短于思考，长于猛干而短于讨论，长于革新而短于持重。</item>
+	    <item>无论哪个时代，青年的特点总是怀抱着名种理想和幻想。这并不是什么毛病，而是一种宝贵品质。</item>
+	    <item>所谓思考，有两种类型，一种是始终以叙述的态度，与思考的对象保持一定的距离，从而对思考的对象进行分析；另一种则是像追求理想那样，尽可能缩小与对象的距离，努力争取使自己的人格成长为与其贴近甚至一致。关于爱的哲学必须是后种类型，即通过进行思考来唤起人格的成长。</item>
+	    <item>每个人的精神上都有几根感情的支柱对父母的、对信仰的、对理想的、对知友和爱情的感情支柱。无论哪一根断了，都要心痛的</item>
+	    <item>就是在我们母亲的膝上，我们获得了我们的最高尚最真诚和最远大的理想，但是里面很少有任何金钱。</item>
+	    <item>每个人都必须按自己心灵的良心来生活，但不是按任何理想。使良心屈从于信条，或理念，或传统，甚至是内在冲动，那是我们的堕落。</item>
+	    <item>最理想的朋友，是气质上互相倾慕，心灵上互相沟通，世界观上互相合拍，事业上目标一致的人。</item>
+	    <item>别虚掷你的一寸光阴吧，别去听无聊的话，别试图补救无望的过失，别在愚昧、平庸和猥琐的事上消磨你的生命，这些东西都是我们这个时代病态的目标和虚假的理想。生活吧！过属于你的奇妙的生活！点滴都别浪费。</item>
+	    <item>没有加倍的勤奋，就既没有才能，也没有天才。</item>
+	    <item>在天才和勤奋两者之间，我毫不迟疑地选择勤奋，她是几乎世界上一切成就的催产婆。</item>
+	    <item>形成天才的决定因素应该是勤奋。有几分勤学苦练是成正比例的。</item>
+	    <item>所谓天才人物指的就是具有毅力的人、勤奋的人、入迷的人和忘我的人。</item>
+	</string-array>
+	
+	<string-array name="writer">
+	    <item>吴玉章</item>
+	    <item>周汉晖</item>
+	    <item>谚语</item>
+	    <item>加里宁</item>
+	    <item>罗曼.罗兰</item>
+	    <item>叶圣陶</item>
+	    <item>苏霍姆林斯基</item>
+	    <item>杜威</item>
+	    <item>苏霍姆林斯基</item>
+	    <item>爱因斯坦</item>
+	    <item>戴尔·卡内基</item>
+	    <item>伯纳德·马拉默德</item>
+	    <item>居里夫人</item>
+	    <item>雷锋</item>
+	    <item>马志尼</item>
+	    <item>培根</item>
+	    <item>爱因斯坦</item>
+	    <item>华罗庚</item>
+	    <item>狄德罗</item>
+	    <item>欧文</item>
+	    <item>别林斯基</item>
+	    <item>蒙田</item>
+	    <item>德奥弗拉斯多</item>
+	    <item>斯里兰卡</item>
+	    <item>歌德</item>
+	    <item>赫尔巴特</item>
+	    <item>巴尔扎克</item>
+	    <item>何其芳</item>
+	    <item>纪伯伦</item>
+	    <item>柯尔律治</item>
+	    <item>王尔德</item>
+	    <item>洛克</item>
+	    <item>刘易斯</item>
+	    <item>赫尔岑</item>
+	    <item>罗素</item>
+	    <item>莎士比亚</item>
+	    <item>马尔林斯基</item>
+	    <item>克鲁普斯卡娅</item>
+	    <item>卢梭</item>
+	    <item>杰弗逊</item>
+	    <item>列宁</item>
+	    <item>伏尔泰</item>
+	    <item>塞内加</item>
+	    <item>魏尔伦</item>
+	    <item>恩格斯</item>
+	    <item>前苏联的宇航员</item>
+	    <item>哈菲兹</item>
+	    <item>冰心</item>
+	    <item>萧伯纳</item>
+	    <item>威廉·李卜克内西</item>
+	    <item>培根</item>
+	    <item>加里宁</item>
+	    <item>今道友信</item>
+	    <item>柳青</item>
+	    <item>马克.吐温</item>
+	    <item>劳伦斯</item>
+	    <item>周汉晖</item>
+	    <item>奥斯卡·王尔德</item>
+	    <item>门捷列夫</item>
+	    <item>爱因斯坦</item>
+	    <item>郭沫若</item>
+	    <item>木村久一</item>
+	</string-array>
+</resources>
